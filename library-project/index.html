@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1 class="title">Simon's Puiblic Library</h1>
+        <p class="text">Where you can keep track your of books!</p>
+      </div>
+      <div id="mid-section">
+        <div class="btn-section">
+          <button class="add-book">New Book</button>
+        </div>
+        <form class="book" id="book-info" >
+          <label for="title">Title</label>
+          <input type="text" id="title" required />
+          <label for="author">Author</label>
+          <input type="text" id="author" required />
+          <label for="pages">Pages</label>
+          <input type="number" id="pages" required />
+          <label for="read"><input type="radio" id="read" /> Have you read the book?</label>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+        <div id="book-section" >
+          <!-- <div class="book-item" data.id='1'>
+            <h2>Title</h2>
+            <p>author</p>
+            <p>Page</p>
+            <form>
+              <label><input type="radio" /> Read the book </label>
+            </form> -->
+            <!-- <button class="delete-btn" onclick="removeBook(${i})">Delete</button> -->
+            <!-- <button class="edit" onclick="toggleBook(status)">Status</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/project/library-project/app.js"></script>
+  </body>
+</html>
